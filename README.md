@@ -39,3 +39,25 @@ Github workflow: THis executes an automated set of commands a user defines. Thes
 
 The custom workflow variables which someone would need to change would be the names of the images 
 
+# Part 3: Deployment
+
+Description of the restart script:
+
+The restart script works by taking a preset token from the user 
+
+Setting up webhook and the server:
+
+webhook install command ```sudo apt instal webhook```
+
+To keep the webhook running I can use both ```systemctl enable webhook``` to make sure it starts at boot and running webhook in a GNU Screen session to have it running the entire time my system is up. 
+
+webhook task definition file: 
+
+The webhook task definiton file is the file which defines to the webhook program what to listen for and what action to take once the target "token" or packet has been received. 
+
+Steps for Github notifier:
+
+In the repository settings 
+1. select email settings
+2. enter the email desired to be notified for push events
+
