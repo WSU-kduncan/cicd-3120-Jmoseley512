@@ -63,4 +63,4 @@ In the repository settings
 
 # Part 4: Visualization 
 
-![Workflow)(https://github.com/WSU-kduncan/cicd-3120-Jmoseley512/blob/main/images/workflow.png)
+![Workflow](https://github.com/WSU-kduncan/cicd-3120-Jmoseley512/blob/main/images/workflow.png)
