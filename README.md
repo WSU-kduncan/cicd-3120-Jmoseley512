@@ -61,3 +61,6 @@ In the repository settings
 1. select email settings
 2. enter the email desired to be notified for push events
 
+# Part 4: Visualization 
+
+![Workflow)(https://github.com/WSU-kduncan/cicd-3120-Jmoseley512/blob/main/images/workflow.png)
