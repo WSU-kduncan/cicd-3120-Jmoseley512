@@ -1,0 +1,21 @@
+[
+    { 
+      "id": "docker-webserv",
+      "execute-command": "./docker_restart.sh",
+      "command-working-directory": "/etc/scripts",
+      "response-message": "Executing redeploy web resume container",
+      "trigger-rule":
+      {
+        "match":
+        {
+          "type": "value",
+          "value": "image-rstat",
+          "parameter":
+          {
+            "source": "url",
+            "name": "GET-PARAM"
+          }
+        }
+      }
+    }
+]
